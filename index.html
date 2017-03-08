@@ -1,0 +1,74 @@
+<html>
+<title>Anushka Bhandari</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Static Website--Anushka-Portfolio">
+
+  <link rel="stylesheet" type="text/css"  href="bootystrap.css">
+  <link rel="stylesheet" type="text/css" href="font-awesomeee.css">
+  <link rel="stylesheet" type="text/css"  href="sstyle.css">
+  <link rel="stylesheet" type="text/css" href="prettyPhoto.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <style>
+  .mySlides {display:none;}
+  </style>
+  <body style="background-color:powderblue;">
+
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h1>Anushka Bhandari</h1>
+      <hr>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="" >Home</a></li>
+            <li><a href="yess.html" >Career Profile</a></li>
+            <li><a href="html.html" >Life</a></li>
+            <li><a href="https://docs.google.com/a/iiitd.ac.in/forms/d/e/1FAIpQLSdv3UhT-NsCfY_B3-nTY1_GTUsJ2uAkyQX7i6lTQMRSm6Zfqw/viewform" >FeedBack</a></li>
+          </ol>
+        </li>
+      </ul>
+
+    <div class="w3-content w3-section" style="max-width:1500px ;height:10px">
+      <img class="mySlides" src="slide4.jpg" style="width:100%">
+      <img class="mySlides" src="slide2.jpg" style="width:100%">
+      <img class="mySlides" src="slide3.jpg" style="width:100%">
+      <img class="mySlides" src="large.png" style="width:100%">
+
+
+
+
+    </div>
+
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000);
+       }
+    </script>
+
+
+  </div>
+</div>
+<br/>
+<br/>
+
+</body>
+</html>
